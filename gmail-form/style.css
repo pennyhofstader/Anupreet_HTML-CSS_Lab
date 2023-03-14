@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+video {
+    position: fixed;
+
+}
+
+
+.form-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border: 1px solid white;
+    padding: 20px 40px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+input:focus {
+    outline: none;
+    color: white;
+    background-color: steelblue;
+    opacity: 0.35;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    background-color: #af66f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
